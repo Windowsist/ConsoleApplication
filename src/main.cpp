@@ -1,6 +1,6 @@
-﻿#include <stdio.h>
+﻿#include <iostream>
 
-int main(int argc, char **argv, char **envp)
+int wmain(int argc, wchar_t **argv, wchar_t **envp)
 {
-    printf_s("deprecated!\r\n");
+    std::wcout << L"deprecated!" << std::endl;
 }
