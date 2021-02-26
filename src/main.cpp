@@ -1,6 +1,6 @@
 ﻿#include <windows.h>
 
-int wmain(int argc,wchar_t** argv,wchar_t** envp)
+int wmain(int argc, wchar_t **argv, wchar_t **envp)
 {
     HANDLE out = GetStdHandle(STD_OUTPUT_HANDLE);
     HANDLE in = GetStdHandle(STD_INPUT_HANDLE);
